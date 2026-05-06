@@ -18,7 +18,7 @@ Pour démarrer l'application، utilisez la commande suivante :
 ```bash
 docker run -d -p 3000:5173 --name netflix-live netflix-app
 
-**
+**```**
 L'application sera disponible sur : [http://localhost:3000](http://localhost:3000)
 ## ✨ Fonctionnalités Principales
 - **Interface Immersive** : Un design fidèle à Netflix avec une navigation fluide et responsive.
