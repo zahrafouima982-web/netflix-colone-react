@@ -1,38 +1,24 @@
-# Netflix Clone React.js
+# Netflix Clone - React.js & Docker 🚀
 
-## Overview
-This project is a Netflix clone built using React.js, designed to enhance skills in web development. It features a fully interactive user interface with various functionalities, making it a comprehensive movie-watching experience. The project is powered by TMDB API, utilizing Firebase for database management.
+Ce projet est une application web moderne (Clone Netflix) développée avec **React.js** et **Vite**, mettant en avant des compétences en développement frontend et en conteneurisation.
 
-## Screenshots
+## 🛠️ Technologies & Outils
+* **Frontend**: React.js, Tailwind CSS, TMDB API
+* **Conteneurisation**: Docker & Docker Desktop
+* **Environnement**: Node.js (Alpine Image)
 
-![PC screen](https://i.imgur.com/FLNs9Qy.jpg)
+## 🐳 Déploiement avec Docker
+Le projet est configuré pour être lancé rapidement via Docker.
 
-
-
-### mobile experience 
-![mobile screens](https://i.imgur.com/ForTeQi.jpg)
- 
-## Key Functionalities
-- Sign In / Sign Up
-- Home Page for browsing movies
-- My List Section for user-specific movie selections
-- Liked Movies Page
-- Watched Movies Page
-- Profile Page
-- Play Movie Page
-- Search Movie Page
-
-## Technologies Used
-- [React.js](https://react.dev/)
-- [TMDB API](https://www.themoviedb.org/)
-- [Firebase](https://firebase.google.com/)
-- [Axios](https://www.npmjs.com/package/axios)
-- [Swiper.js](https://swiperjs.com/)
-- [React-Youtube](https://www.npmjs.com/package/react-youtube)
-- [Tailwind CSS](https://tailwindcss.com/)
-
-## Description
-This Netflix clone project was developed to deepen understanding and proficiency in React.js. Leveraging popular technologies and APIs like TMDB and Firebase, it encompasses a range of features, from user authentication to dynamic movie listings. The design is tailored to provide an immersive streaming experience, and the codebase reflects best practices in modern web development.
-
-## Link to the Site
-[Netflix Clone](https://movieflix-reactjs.vercel.app/)
+### 1. Build de l'image
+```bash
+docker build -t netflix-app .
+### Lancement du conteneur
+Pour démarrer l'application، utilisez la commande suivante :
+```bash
+docker run -d -p 3000:5173 --name netflix-live netflix-app
+## ✨ Fonctionnalités Principales
+- **Interface Immersive** : Un design fidèle à Netflix avec une navigation fluide et responsive.
+- **Données en Temps Réel** : Intégration complète de l'API TMDB pour afficher les derniers films et tendances.
+- **Lecture de Bandes-annonces** : Possibilité de visionner les trailers via YouTube directement depuis l'application.
+- **Architecture Conteneurisée** : Déploiement rapide et isolé grâce à Docker, garantissant le fonctionnement sur n'importe quelle machine.
