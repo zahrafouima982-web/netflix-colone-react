@@ -27,3 +27,9 @@ L'application sera disponible sur : [http://localhost:3000](http://localhost:300
 - **Architecture Conteneurisée** : Déploiement rapide et isolé grâce à Docker, garantissant le fonctionnement sur n'importe quelle machine.
 - 
 
+
+https://github.com/user-attachments/assets/fcca6035-05b4-44f8-9611-7f45287e2fe3
+
+
+
+
